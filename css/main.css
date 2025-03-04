@@ -6586,7 +6586,7 @@ body.boxed {
 		padding-right: 30px;
 	}
 
-	.no-content-padding .col-sm-12 .item-content,
+	.no-content-padding .col-sm-10 .item-content,
 	.full-padding .col-sm-12 .item-content {
 		padding-left: 0;
 		padding-right: 0;
@@ -14667,9 +14667,10 @@ body.active-side-header.slide-right .page_header_side {
 .page_slider p {
 	font-size: 1.2em;
 	margin: 0;
-}
+} 
+/* //992 */
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {  
 	.page_slider h2 {
 		font-size: 6em;
 	}
@@ -14777,7 +14778,7 @@ body.active-side-header.slide-right .page_header_side {
 	position: absolute;
 	width: 100%;
 }
-
+/* 991 */
 @media (max-width: 991px) {
 	.page_slider .flex-control-nav {
 		display: none;
@@ -14799,7 +14800,7 @@ body.active-side-header.slide-right .page_header_side {
 .page_slider .flex-control-nav li a.flex-active {
 	opacity: 1;
 }
-
+/* 767 */
 @media (min-width: 767px) {
 	.page_slider.team_slider .container-fluid {
 		position: inherit;
@@ -14839,14 +14840,14 @@ body.active-side-header.slide-right .page_header_side {
 		z-index: 5;
 	}
 }
-
+/* 767 to 600 */
 @media (min-width: 767px) and (min-width: 600px) {
 	.boxed .page_slider .intro_layers_wrapper {
 		padding-left: 60px;
 		padding-right: 60px;
 	}
 }
-
+/* 767 repeat */
 @media (min-width: 767px) {
 	.page_slider .intro_text_top .intro_layers {
 		-webkit-box-pack: start;
@@ -15160,9 +15161,9 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (max-width: 767px) {
 	.page_slider .slide2 .intro_before_featured_word {
-		font-size: 33px;
+		font-size: 13px;
 		font-weight: 200;
-		margin-top: 44px;
+		margin-top: 14px;
 	}
 }
 
@@ -15181,7 +15182,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (max-width: 767px) {
 	.page_slider .slide2 .intro_featured_word {
-		font-size: 56px;
+		font-size: 36px;
 		margin-bottom: 0;
 		margin-top: 7px;
 	}
@@ -17611,7 +17612,8 @@ h4.comments-title {
 
 .blog2 .post-thumb a img {
 	max-height: 600px;
-	width: 1170px;
+	/* width: 1170px; */
+	border: 4px solid red;
 }
 
 .blog2 .icons {
@@ -18663,7 +18665,7 @@ a.btn {
 }
 
 .item-hover-content .item-media {
-	z-index: 2;
+	z-index: 1;
 }
 
 .item-hover-content .item-content {
