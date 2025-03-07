@@ -553,6 +553,12 @@ ol.list3 li:after {
 /*
 ** Bootstrap Overrides
 */
+
+.banner-text{
+	color: white;
+}
+
+
 /* bootstrap breadcrumbs*/
 .breadcrumb {
 	background-color: transparent;
@@ -14868,7 +14874,7 @@ body.active-side-header.slide-right .page_header_side {
 		margin: 0;
 		padding: 0 0.2em;
 		text-align: center;
-		text-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+		/* text-shadow: 0 0 7px rgba(0, 0, 0, 0.25); */
 	}
 
 	.page_slider .intro_featured_word {
@@ -14893,12 +14899,14 @@ body.active-side-header.slide-right .page_header_side {
 	.page_slider .intro_featured_word {
 		font-size: 56px;
 		margin-top: 6px;
+		color: #000;
 	}
 
 	.page_slider .intro_before_featured_word {
 		font-size: 33px;
 		font-weight: 200;
 		margin-top: 0;
+		color: #000;
 	}
 
 	.page_slider .intro_after_featured_word {
@@ -14990,7 +14998,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .flexslider-bottom:before {
-	background-color: #fff;
+	/* background-color: #fff; */
 	bottom: -35px;
 	content: "";
 	height: 70px;
@@ -15004,7 +15012,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .flexslider-bottom:after {
-	background-color: #fff;
+	/* background-color: #fff; */
 	bottom: -35px;
 	content: "";
 	height: 70px;
@@ -15156,20 +15164,20 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .slide2 .intro_before_featured_word {
-	font-size: 60px;
+	font-size: 30px;
 }
 
 @media (max-width: 767px) {
 	.page_slider .slide2 .intro_before_featured_word {
 		font-size: 13px;
 		font-weight: 200;
-		margin-top: 14px;
+		/* margin-top: 14px; */
 	}
 }
 
 @media (min-width: 768px) {
 	.page_slider .slide2 .intro_before_featured_word {
-		font-size: 40px;
+		font-size: 30px;
 		margin-top: 40px;
 	}
 }
@@ -15182,7 +15190,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (max-width: 767px) {
 	.page_slider .slide2 .intro_featured_word {
-		font-size: 36px;
+		font-size: 30px;
 		margin-bottom: 0;
 		margin-top: 7px;
 	}
@@ -15191,7 +15199,15 @@ body.active-side-header.slide-right .page_header_side {
 @media (min-width: 768px) {
 	.page_slider .slide2 .intro_featured_word {
 		margin-bottom: 0;
-		margin-top: 10px;
+		margin-top: 30px;
+		font-size: 60px;
+	}
+}
+@media (min-width: 1100px) {
+	.page_slider .slide2 .intro_featured_word {
+		margin-bottom: 0;
+		margin-top: 30px;
+		font-size: 100px;
 	}
 }
 
@@ -15220,7 +15236,7 @@ body.active-side-header.slide-right .page_header_side {
 		font-size: 15px;
 		font-weight: 400;
 		letter-spacing: 1em;
-		margin-top: 20px;
+		/* margin-top: 20px; */
 	}
 }
 
@@ -15391,7 +15407,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider.static .intro_featured_word {
-	font-size: 80px;
+	font-size: 30px;
 	font-weight: 100;
 	line-height: 60px;
 	margin-bottom: 0;
